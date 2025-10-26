@@ -84,7 +84,7 @@ Tampilan ini adalah Menu Utama dari program yang berfungsi sebagai gerbang otent
 
 Setelah memilih opsi '1' (Buat Akun) dari menu utama, program meminta input username, password, dan nama lengkap pengguna, lalu sistem akan memprosesnya dengan pesan Loading..., lalu menampilkan konfirmasi "Selamat! Akun kamu berhasil dibuat", dan bakal kembali ke menu utama.
 
-#**USER**
+**#USER**
 
 <img width="787" height="293" alt="Screenshot 2025-10-26 175521" src="https://github.com/user-attachments/assets/16991b66-c0e6-4b5a-bd68-2b3d1fb92b7a" />
 
