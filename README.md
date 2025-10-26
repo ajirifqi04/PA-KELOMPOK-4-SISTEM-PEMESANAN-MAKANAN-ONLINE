@@ -9,7 +9,7 @@
 
 # === 🧩 FLOWCHART ===
 
-# MENU AWAL USER
+# MENU UTAMA
 
 ![PA DDP4-Halaman-1](https://github.com/user-attachments/assets/629945b7-8db2-48eb-895e-26769429e5b5)
 
@@ -56,9 +56,9 @@ Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelo
 **Tampilan Menu Admin**: Admin memiliki 5 opsi utama yaitu:
  1. Lihat Menu : Sistem akan membaca file **Database Menu CSV** dan akan menampilkan tabel daftar menu yang tersedia.
  2. Tambah Menu : Admin diminta memasukkan nama dan harga makanan baru. Data disimpan ke file CSV, lalu sistem menampilkan notifikasi bahwa menu berhasil ditambahkan dan menampilkan tabel menu terbaru.
- 3. Hapus Menu : Admin memasukkan nama menu yang ingin dihapus. Sistem membaca data di file CSV, menghapus data yang sesuai, lalu memperbarui tabel menu terbaru.
- 4. Ubah Menu : Admin dapat mengubah harga dari menu tertentu. Setelah diperbarui, data disimpan kembali ke file CSV dan sistem menampilkan notifikasi bahwa menu berhasil diperbarui.
- 5. Keluar : Admin dapat keluar dari sistem, dan program menampilkan notifikasi bahwa sesi admin telah selesai.
+ 3. Hapus Menu : Admin memasukkan nama menu yang ingin dihapus. Sistem membaca data di file CSV, menghapus data yang sesuai, lalu menampilkan tabel menu terbaru.
+ 4. Ubah Menu : Admin dapat mengubah harga dari menu tertentu. Setelah diperbarui, data disimpan kembali ke file CSV dan sistem menampilkan notifikasi bahwa menu berhasil diperbarui dan menampilkan tabel menu terbaru.
+ 5. Keluar : Admin dapat keluar dari sistem, dan akan menampilkan menu utama.
 
 # **🧩 Flowchart Menu User**
 
