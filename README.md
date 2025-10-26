@@ -80,6 +80,15 @@ Tampilan ini adalah Menu Utama dari program yang berfungsi sebagai gerbang otent
 
 Setelah memilih opsi '1' (Buat Akun) dari menu utama, program meminta input username, password, dan nama lengkap pengguna, lalu sistem akan memprosesnya dengan pesan Loading..., lalu menampilkan konfirmasi "Selamat! Akun kamu berhasil dibuat", dan bakal kembali ke menu utama.
 
+# ADMIN
+
+<img width="786" height="297" alt="image" src="https://github.com/user-attachments/assets/f3206032-eeb8-4037-afec-1a61db1b57cc" />
+
+Tampilan ini menunjukkan bahwa pengguna memilih opsi '2' (Login) dari Menu Utama dan berhasil masuk sebagai administrator dengan memasukkan username: admin dan password yang tersembunyi, yang dikonfirmasi dengan pesan "Login sebagai ADMIN berhasil!" sebelum program memulai proses Loading untuk masuk ke menu admin.
+
+
+
+# USER
 <img width="787" height="293" alt="image" src="https://github.com/user-attachments/assets/595616a4-7b1b-4712-88e6-90105576cf42" />
 
 Setelah memilih opsi '2' (Login), pengguna diarahkan untuk memasukkan username dan password yang telah di buat sebelumnya, yang kemudian diverifikasi dan menampilkan konfirmasi "Login Berhasil! Selamat datang, (Nama Lengkap)!" lalu sistem akan memprosesnya dengan pesan Loading...
@@ -128,9 +137,13 @@ Tampilan ini menunjukkan alur di mana pengguna berada di halaman KONFIRMASI PESA
 
 Setelah memilih opsi '4' dari menu yang tersedia (setelah loading), program menampilkan halaman CEK SALDO yang menunjukkan detail akun pengguna, yaitu Username: Sultan, Nama: Muhammad Nadhir Sultan Azzaky, dan Saldo: Rp 77,000, sebelum menunggu pengguna menekan Enter untuk kembali.
 
+<img width="919" height="473" alt="image" src="https://github.com/user-attachments/assets/19ca9ca4-01b6-43a0-b1ab-08d13e186db7" />
 
+Setelah memilih opsi '5' dari menu yang tersedia (setelah loading), program menampilkan halaman RIWAYAT ORDER yang menunjukkan riwayat pesanan untuk pengguna Sultan, mencantumkan dua transaksi yang berhasil pada tanggal dan waktu yang sama (2025-10-26 18:47:30), yaitu Ayam Geprek Ganja (1) seharga Rp 13.000 dan Mie Gacoan (1) seharga Rp 10.000, sebelum meminta pengguna menekan Enter untuk kembali.
 
+<img width="789" height="364" alt="image" src="https://github.com/user-attachments/assets/aa647e8e-5f10-4cfd-8c92-e093486851be" />
 
+Setelah pengguna memilih opsi '6' dari menu yang tersedia, program menampilkan pesan "Logout berhasil! Kembali ke menu utama..." dan kemudian memuat ulang MENU UTAMA yang menampailkan opsi awal 1. Buat Akun, 2. Login, dan 3. Keluar, serta meminta pengguna untuk "Pilih menu 1-3 :".
 
 
 
@@ -191,8 +204,9 @@ Setelah memilih opsi '4' dari menu yang tersedia (setelah loading), program mena
 
 
 
+<img width="783" height="620" alt="image" src="https://github.com/user-attachments/assets/c9054904-7cb6-4171-84d2-ee2c1a3f791d" />
 
-
+Tampilan ini menunjukkan alur di mana pengguna berada di halaman ORDER dengan TABEL MENU yang tersedia, namun ketika pengguna memasukkan nama menu yang tidak terdaftar (Udang Rambutan), program menampilkan pesan kesalahan "Menu tidak ditemukan!" dan meminta pengguna untuk menekan Enter untuk mencoba lagi.
 
 <img width="780" height="499" alt="image" src="https://github.com/user-attachments/assets/2207b3d5-3c8a-442c-966e-20774289995a" />
 
