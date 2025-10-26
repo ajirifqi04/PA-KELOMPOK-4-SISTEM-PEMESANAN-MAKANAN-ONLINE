@@ -124,7 +124,7 @@ Setelah pengguna memasukkan jumlah top up yang valid sebesar Rp 100.000, lalu pr
 
 <img width="777" height="521" alt="Screenshot 2025-10-26 184755" src="https://github.com/user-attachments/assets/4641e768-689c-4cb2-82bc-52dfc26205b6" />
 
-Berikut output jika order dengan saldo yang cukup.
+Pada halaman KONFIRMASI PESANAN dengan total tagihan Rp 23.000 dan Saldo Anda Rp 100.000, pengguna mengonfirmasi pembayaran ('y'). Lalu program akan memproses transaksi (Loading...) dan menampilkan "Pembayaran berhasil!" dengan rincian Saldo terpotong Rp 23.000 dan Sisa saldo Rp 77.000.
 
 <img width="782" height="439" alt="Screenshot 2025-10-26 184938" src="https://github.com/user-attachments/assets/c150840a-aee3-4747-88fd-2ead449a2593" />
 
