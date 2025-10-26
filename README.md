@@ -8,12 +8,12 @@
 === FLOWCHART ===
 
 # MENU AWAL USER
-![PA DDP4-Halaman-1](https://github.com/user-attachments/assets/0abcfa6f-ac78-438a-8ced-e8d764882a74)
+![WhatsApp Image 2025-10-26 at 15 17 48_73f7484e](https://github.com/user-attachments/assets/64bcbf1c-925d-4fc2-8af7-7575a34f6d90)
 
 # MENU ADMIN
-![PA DDP4-Halaman-2](https://github.com/user-attachments/assets/16228216-d474-404b-ae03-33893575c025)
+![WhatsApp Image 2025-10-26 at 15 18 03_7421f319](https://github.com/user-attachments/assets/a4d234db-00e7-4020-9cc4-86a0238ed02d)
 
 # MENU UTAMA USER
-![PA DDP4-Halaman-3](https://github.com/user-attachments/assets/ac0cbc2a-8c84-4df5-a17a-4882beeb3596)
+![WhatsApp Image 2025-10-26 at 15 18 21_d0ad5cfa](https://github.com/user-attachments/assets/a12072b4-928b-4725-9192-833c83eb16ab)
 
 === PENJELASAN OUTPUT ===
