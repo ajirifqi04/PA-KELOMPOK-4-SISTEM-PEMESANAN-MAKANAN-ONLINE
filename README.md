@@ -70,7 +70,7 @@ Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hin
 6. Riwayat Order : Sistem membaca data dari **DB Pesanan CSV** dan menampilkan histori pembelian (nama menu, jumlah, total harga, waktu transaksi).
 7. Keluar : Menampilkan notifikasi bahwa program selesai dijalankan dan kembali ke menu utama.
 
-=== OUTPUT PROGRAM ===
+# === OUTPUT PROGRAM ===
 
 <img width="786" height="260" alt="image" src="https://github.com/user-attachments/assets/be04a21d-8d71-4aeb-834e-935b1a22b497" />
 
