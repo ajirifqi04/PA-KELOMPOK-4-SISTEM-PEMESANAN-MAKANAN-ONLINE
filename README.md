@@ -7,7 +7,7 @@
 2. Ghaida Suci Nahiza (2509116077)
 3. Muhammad Nadhir Sultan Azzaky (2509116080)
 
-=== 🧩 FLOWCHART ===
+ === 🧩 FLOWCHART ===
 
 # MENU AWAL USER
 ![WhatsApp Image 2025-10-26 at 15 17 48_73f7484e](https://github.com/user-attachments/assets/64bcbf1c-925d-4fc2-8af7-7575a34f6d90)
@@ -36,7 +36,8 @@ Jika pengguna memilih “Buat Akun”, sistem meminta:
   1. Username
   2. Password
   3. Nama Lengkap
-  Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat.
+  Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat
+
 **2. Login**
 Pengguna bisa login sebagai:
   1. **Admin** => Memasukkan username dan password khusus admin. Jika benar, akan diarahkan ke **Menu Admin**.
