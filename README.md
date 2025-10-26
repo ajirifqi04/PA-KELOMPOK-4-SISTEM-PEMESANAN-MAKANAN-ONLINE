@@ -2,7 +2,7 @@
 
 **SISTEM PEMESANAN MAKANAN ONLINE**
 
-=== NAMA KELOMPOK ===
+=== ANGGOTA KELOMPOK ===
 1. Aji Rifqi Suryana (2509116054)
 2. Ghaida Suci Nahiza (2509116077)
 3. Muhammad Nadhir Sultan Azzaky (2509116080)
@@ -20,5 +20,31 @@
 
 === PENJELASAN FLOWCHART ===
 
-**Penjelasan Menu Awall User**
+**Penjelasan Menu Awal User**
+🧩 1. Flowchart Menu Awal / Login & Registrasi
+
+Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan.
+
+🔹 Penjelasan Alur:
+
+**Mulai**
+Program dijalankan dan menampilkan menu utama dengan tiga pilihan:
+  1.Buat Akun
+  2.Login
+  3.Keluar
+
+**1. Buat Akun (User)**
+Jika pengguna memilih “Buat Akun”, sistem meminta:
+  1.Username
+  2.Password
+  3.Nama lengkap
+  Setelah data diisi, sistem menyimpan ke file DB Akun CSV, lalu menampilkan notifikasi bahwa akun berhasil dibuat.
+
+**2. Login**
+Pengguna bisa login sebagai:
+  1.Admin => Memasukkan username dan password khusus admin. Jika benar, diarahkan ke Menu Admin.
+  2.User => Memasukkan username dan password user yang sudah terdaftar, lalu diarahkan ke Menu User.
+
+**3. Keluar**
+Jika memilih “Keluar”, program menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
 
