@@ -2,13 +2,10 @@
 
 **SISTEM PEMESANAN MAKANAN ONLINE**
 
-👥 Anggota Kelompok 4 - Sistem Informasi B
-||||||||||||||||||||||||||||||||||||||||||||||||||||||
-| No.  |        Nama	                  |    NIM     |
-|  1	 |  Aji Rifqi Suryana	            | 2509116054 |
-|  2	 |  Ghaida Suci Nahiza	          | 2509116077 |
-|  3   |  Muhammad Nadhir Sultan Azzaky	| 2509116080 |
-||||||||||||||||||||||||||||||||||||||||||||||||||||||
+=== 👥 Anggota Kelompok 4 - Sistem Informasi B ===
+1. Aji Rifqi Suryana (2509116054)
+2. Ghaida Suci Nahiza (2509116077)
+3. Muhammad Nadhir Sultan Azzaky (2509116080)
 
 === FLOWCHART ===
 
