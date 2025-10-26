@@ -26,18 +26,21 @@ Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan. Flowch
 
 🔹 Penjelasan Alur:
 
-**Mulai**: Program dijalankan dan menampilkan menu utama dengan tiga pilihan yaitu:
+**Mulai**: 
+* Program dijalankan dan menampilkan menu utama dengan tiga pilihan yaitu:
    1. Buat Akun
    2. Login
    3. Keluar
   
-**1. Buat Akun (User)**: Jika pengguna memilih “Buat Akun”, sistem meminta:
+**1. Buat Akun (User)**: 
+* Jika pengguna memilih “Buat Akun”, sistem meminta:
    1. Username
    2. Password
    3. Nama Lengkap
  Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat
 
-**2. Login**: Pengguna bisa login sebagai:
+**2. Login**: 
+* Pengguna bisa login sebagai:
    1. **Admin** => Memasukkan username dan password khusus admin. Jika benar, akan diarahkan ke **Menu Admin**.
    2. **User** => Memasukkan username dan password yang sudah terdaftar, lalu akan diarahkan ke **Menu User**.
 
@@ -64,10 +67,18 @@ Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hin
 
 **Tampilan Menu User**: User disajikan 6 opsi utama yaitu:
 1. Lihat Menu : Sistem membaca file DB Menu CSV dan menampilkan daftar makanan beserta harganya.
-2. Order : Pengguna memilih makanan yang ingin dipesan beserta jumlahnya, kemudian sistem secara otomatis menghitung total harga. Jika saldo pengguna mencukupi, maka transaksi akan berhasil diproses, data pesanan akan disimpan ke dalam file pesanan.csv, dan saldo pengguna akan berkurang sesuai total pembelian. Namun, apabila saldo tidak mencukupi, sistem akan menolak transaksi dan menampilkan peringatan agar pengguna melakukan top up terlebih dahulu. Setelah pembayaran berhasil, sistem menampilkan invoice atau struk pemesanan sebagai bukti transaksi.
+2. Order : Pengguna memilih makanan yang ingin dipesan beserta jumlahnya, kemudian sistem secara otomatis menghitung total harga. Jika saldo pengguna mencukupi, maka transaksi akan berhasil diproses, data pesanan akan disimpan ke dalam file pesanan.csv, dan saldo pengguna akan otomatis berkurang sesuai total pembelian. Namun, apabila saldo tidak mencukupi, sistem akan menolak transaksi dan menampilkan peringatan agar pengguna melakukan top up terlebih dahulu. Setelah pembayaran berhasil, sistem menampilkan invoice atau struk pemesanan sebagai bukti transaksi.
 4. Top Up Saldo : Pengguna dapat menambahkan saldo minimal Rp50.000. Sistem akan memperbarui file **DB Akun CSV**, lalu menampilkan notifikasi bahwa saldo berhasil ditambahkan.
 5. Cek Saldo : Sistem membaca data dari **DB Akun CSV** dan akan menampilkan jumlah saldo saat ini.
 6. Riwayat Order : Sistem membaca data dari **DB Pesanan CSV** dan menampilkan histori pembelian (nama menu, jumlah, total harga, waktu transaksi).
 7. Keluar : Menampilkan notifikasi bahwa program selesai dijalankan dan kembali ke menu utama.
 
 === OUTPUT PROGRAM ===
+
+<img width="786" height="260" alt="image" src="https://github.com/user-attachments/assets/be04a21d-8d71-4aeb-834e-935b1a22b497" />
+
+Tampilan ini adalah Menu Utama dari program yang berfungsi sebagai gerbang otentikasi awal, memungkinkan pengguna untuk Buat Akun, Login, atau Keluar dari aplikasi.
+
+<img width="784" height="385" alt="image" src="https://github.com/user-attachments/assets/14b92baf-e341-4c94-a2b0-a405cf1ec1f4" />
+
+Setelah memilih opsi '1' (Buat Akun) dari menu utama, program meminta input username, password, dan nama lengkap pengguna (Muhammad Nadhir Sultan Azzaky), memprosesnya dengan pesan Loading..., dan akhirnya menampilkan konfirmasi "Selamat! Akun kamu berhasil dibuat".
