@@ -22,32 +22,30 @@
 
 **🧩 Flowchart Menu Awal / Login & Registrasi**
 
-Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan.
+Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan. Flowchart ini menggambarkan tahap autentikasi awal sistem, di mana pengguna dapat membuat akun baru atau login sebagai admin maupun user untuk masuk ke tahap berikutnya.
 
 🔹 Penjelasan Alur:
 
 **Mulai**: Program dijalankan dan menampilkan menu utama dengan tiga pilihan yaitu:
-  1. Buat Akun
-  2. Login
-  3. Keluar
+   1. Buat Akun
+   2. Login
+   3. Keluar
   
-**1. Buat Akun (User)**
-Jika pengguna memilih “Buat Akun”, sistem meminta:
-  1. Username
-  2. Password
-  3. Nama Lengkap
+**1. Buat Akun (User)**: Jika pengguna memilih “Buat Akun”, sistem meminta:
+   1. Username
+   2. Password
+   3. Nama Lengkap
  Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat
 
-**2. Login**
-Pengguna bisa login sebagai:
-  1. **Admin** => Memasukkan username dan password khusus admin. Jika benar, akan diarahkan ke **Menu Admin**.
-  2. **User** => Memasukkan username dan password yang sudah terdaftar, lalu akan diarahkan ke **Menu User**.
+**2. Login**: Pengguna bisa login sebagai:
+   1. **Admin** => Memasukkan username dan password khusus admin. Jika benar, akan diarahkan ke **Menu Admin**.
+   2. **User** => Memasukkan username dan password yang sudah terdaftar, lalu akan diarahkan ke **Menu User**.
 
 **3. Keluar**: Jika memilih "Keluar", maka program akan menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
 
 **🧩 Flowchart Menu Admin**
 
-Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelola data makanan pada sistem.
+Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelola data makanan pada sistem. Flowchart ini menunjukkan fungsi **CRUD (Create, Read, Update, Delete)** untuk data menu, di mana admin sepenuhnya mengelola daftar makanan yang akan dipesan oleh user.
 
 🔹 Penjelasan Alur:
 
@@ -57,3 +55,22 @@ Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelo
  3. Hapus Menu : Admin memasukkan nama menu yang ingin dihapus. Sistem membaca file CSV, menghapus data yang sesuai, lalu memperbarui tabel menu terbaru.
  4. Ubah Menu : Admin dapat mengubah harga dari menu tertentu. Setelah diperbarui, data disimpan kembali ke file CSV dan sistem menampilkan notifikasi bahwa menu berhasil diperbarui.
  5. Keluar : Admin dapat keluar dari sistem, dan program menampilkan notifikasi bahwa sesi admin telah selesai.
+
+**🧩 3. Flowchart Menu User**
+
+Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hingga melakukan pembayaran. Sistem juga menyediakan fitur saldo dan riwayat pemesanan untuk memudahkan pengguna mengelola aktivitas mereka.
+
+🔹 Penjelasan Alur:
+
+**Tampilan Menu User**: User disajikan 6 opsi utama yaitu:
+1. Lihat Menu : Sistem membaca file DB Menu CSV dan menampilkan daftar makanan beserta harganya.
+2. Order : Pengguna memilih makanan yang ingin dipesan, jumlahnya, lalu sistem menghitung total harga. Setelah itu:
+   Jika saldo cukup => transaksi berhasil, data akan disimpan di **DB Pesanan CSV**, dan otomatis saldo akan berkurang dengan sendirinya.
+   Jika saldo tidak cukup => transaksi tidak berhasil, sistem akan menolak transaksi dan meminta anda untuk top up saldo terlebih dahulu.
+   Setelah pembayaran berhasil, sistem akan menampilkan **invoice (struk pemesanan)**.
+4. Top Up Saldo : Pengguna dapat menambahkan saldo minimal Rp50.000. Sistem akan memperbarui file **DB Akun CSV**, lalu menampilkan notifikasi bahwa saldo berhasil ditambahkan.
+5. Cek Saldo : Sistem membaca data dari **DB Akun CSV** dan akan menampilkan jumlah saldo saat ini.
+6. Riwayat Order : Sistem membaca data dari **DB Pesanan CSV** dan menampilkan histori pembelian (nama menu, jumlah, total harga, waktu transaksi).
+7. Keluar : Menampilkan notifikasi bahwa program selesai dijalankan dan kembali ke menu utama.
+
+=== OUTPUT PROGRAM ===
