@@ -16,4 +16,7 @@
 # MENU UTAMA USER
 ![WhatsApp Image 2025-10-26 at 15 18 21_d0ad5cfa](https://github.com/user-attachments/assets/a12072b4-928b-4725-9192-833c83eb16ab)
 
-=== PENJELASAN OUTPUT ===
+=== PENJELASAN FLOWCHART ===
+
+**Penjelasan Menu Awall User**
+
