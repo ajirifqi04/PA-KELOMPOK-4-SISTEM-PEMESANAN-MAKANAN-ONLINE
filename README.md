@@ -96,7 +96,6 @@ Tampilan ini menunjukkan ketika anda memilih opsi '1' dari menu sebelumnya (kemu
 
 Setelah pengguna memilih opsi '2' dari menu sebelumnya, program menampilkan halaman ORDER yang tetap menyajikan TABEL MENU (termasuk Mie Gacoan, Udang Keju, Ayam Geprek Ganja, Ayam Katsu, dan Nasi Goreng beserta harganya) dan kemudian meminta pengguna untuk memasukkan nama menu yang ingin dipesan.
 
-<img width="781" height="571" alt="Screenshot 2025-10-26 180956" src="https://github.com/user-attachments/assets/c3eb1500-7fd0-4868-8ec5-5cbad420611c" />
 
 Tampilan ini melanjutkan proses pemesanan dengan menerima input nama menu yang ingin dipesan ("Ayam Geprek Ganja") dan jumlahnya ("1"), dan kemudian mengajukan pertanyaan konfirmasi "Apakah anda ingin memesan menu lain? (Y/N)" untuk "Y" artinya iya dan "N" artinya tidak.
 
