@@ -38,6 +38,7 @@ Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan. Flowch
    1. Username
    2. Password
    3. Nama Lengkap
+
  Setelah data diisi, sistem akan menyimpan file **Database Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat
 
 **2. Login** : Pengguna bisa login sebagai:
