@@ -10,13 +10,18 @@
 # === 🧩 FLOWCHART ===
 
 # MENU AWAL USER
-![WhatsApp Image 2025-10-26 at 15 17 48_73f7484e](https://github.com/user-attachments/assets/64bcbf1c-925d-4fc2-8af7-7575a34f6d90)
+
+![PA DDP4-Halaman-1](https://github.com/user-attachments/assets/629945b7-8db2-48eb-895e-26769429e5b5)
 
 # MENU ADMIN
-![WhatsApp Image 2025-10-26 at 15 18 03_7421f319](https://github.com/user-attachments/assets/a4d234db-00e7-4020-9cc4-86a0238ed02d)
+
+![Uploading PA DDP4-Halaman-2.jpg…]()
+
 
 # MENU UTAMA USER
-![WhatsApp Image 2025-10-26 at 15 18 21_d0ad5cfa](https://github.com/user-attachments/assets/a12072b4-928b-4725-9192-833c83eb16ab)
+
+![Uploading PA DDP4-Halaman-3.jpg…]()
+
 
 # === PENJELASAN FLOWCHART ===
 
