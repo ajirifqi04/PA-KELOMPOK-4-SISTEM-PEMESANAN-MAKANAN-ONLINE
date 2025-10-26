@@ -2,12 +2,12 @@
 
 **SISTEM PEMESANAN MAKANAN ONLINE**
 
-=== 👥 Anggota Kelompok 4 - Sistem Informasi B ===
+# === 👥 Anggota Kelompok 4 - Sistem Informasi B ===
 1. Aji Rifqi Suryana (2509116054)
 2. Ghaida Suci Nahiza (2509116077)
 3. Muhammad Nadhir Sultan Azzaky (2509116080)
 
- === 🧩 FLOWCHART ===
+# === 🧩 FLOWCHART ===
 
 # MENU AWAL USER
 ![WhatsApp Image 2025-10-26 at 15 17 48_73f7484e](https://github.com/user-attachments/assets/64bcbf1c-925d-4fc2-8af7-7575a34f6d90)
@@ -18,9 +18,9 @@
 # MENU UTAMA USER
 ![WhatsApp Image 2025-10-26 at 15 18 21_d0ad5cfa](https://github.com/user-attachments/assets/a12072b4-928b-4725-9192-833c83eb16ab)
 
-=== PENJELASAN FLOWCHART ===
+# === PENJELASAN FLOWCHART ===
 
-**🧩 Flowchart Menu Awal / Login & Registrasi**
+# **🧩 Flowchart Menu Awal / Login & Registrasi**
 
 Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan. Flowchart ini menggambarkan tahap autentikasi awal sistem, di mana pengguna dapat membuat akun baru atau login sebagai admin maupun user untuk masuk ke tahap berikutnya.
 
@@ -43,7 +43,7 @@ Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan. Flowch
 
 **3. Keluar**: Jika memilih "Keluar", maka program akan menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
 
-**🧩 Flowchart Menu Admin**
+# **🧩 Flowchart Menu Admin**
 
 Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelola data makanan pada sistem. Flowchart ini menunjukkan fungsi **CRUD (Create, Read, Update, Delete)** untuk data menu, di mana admin sepenuhnya mengelola daftar makanan yang akan dipesan oleh user.
 
@@ -56,7 +56,7 @@ Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelo
  4. Ubah Menu : Admin dapat mengubah harga dari menu tertentu. Setelah diperbarui, data disimpan kembali ke file CSV dan sistem menampilkan notifikasi bahwa menu berhasil diperbarui.
  5. Keluar : Admin dapat keluar dari sistem, dan program menampilkan notifikasi bahwa sesi admin telah selesai.
 
-**🧩 3. Flowchart Menu User**
+# **🧩 3. Flowchart Menu User**
 
 Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hingga melakukan pembayaran. Sistem juga menyediakan fitur saldo dan riwayat pemesanan untuk memudahkan pengguna mengelola aktivitas mereka.
 
@@ -79,14 +79,6 @@ Tampilan ini adalah Menu Utama dari program yang berfungsi sebagai gerbang otent
 <img width="784" height="385" alt="image" src="https://github.com/user-attachments/assets/14b92baf-e341-4c94-a2b0-a405cf1ec1f4" />
 
 Setelah memilih opsi '1' (Buat Akun) dari menu utama, program meminta input username, password, dan nama lengkap pengguna, lalu sistem akan memprosesnya dengan pesan Loading..., lalu menampilkan konfirmasi "Selamat! Akun kamu berhasil dibuat", dan bakal kembali ke menu utama.
-
-# ADMIN
-
-<img width="786" height="297" alt="image" src="https://github.com/user-attachments/assets/f3206032-eeb8-4037-afec-1a61db1b57cc" />
-
-Tampilan ini menunjukkan bahwa pengguna memilih opsi '2' (Login) dari Menu Utama dan berhasil masuk sebagai administrator dengan memasukkan username: admin dan password yang tersembunyi, yang dikonfirmasi dengan pesan "Login sebagai ADMIN berhasil!" sebelum program memulai proses Loading untuk masuk ke menu admin.
-
-
 
 # USER
 <img width="787" height="293" alt="image" src="https://github.com/user-attachments/assets/595616a4-7b1b-4712-88e6-90105576cf42" />
@@ -145,12 +137,19 @@ Setelah memilih opsi '5' dari menu yang tersedia (setelah loading), program mena
 
 Setelah pengguna memilih opsi '6' dari menu yang tersedia, program menampilkan pesan "Logout berhasil! Kembali ke menu utama..." dan kemudian memuat ulang MENU UTAMA yang menampailkan opsi awal 1. Buat Akun, 2. Login, dan 3. Keluar, serta meminta pengguna untuk "Pilih menu 1-3 :".
 
+# ADMIN
 
+<img width="786" height="297" alt="image" src="https://github.com/user-attachments/assets/f3206032-eeb8-4037-afec-1a61db1b57cc" />
 
+Tampilan ini menunjukkan bahwa pengguna memilih opsi '2' (Login) dari Menu Utama dan berhasil masuk sebagai administrator dengan memasukkan username: admin dan password yang tersembunyi, yang dikonfirmasi dengan pesan "Login sebagai ADMIN berhasil!" sebelum program memulai proses Loading untuk masuk ke menu admin.
 
+<img width="402" height="471" alt="image" src="https://github.com/user-attachments/assets/a1e221c0-edaf-47fd-8ca8-120c064ad76e" />
 
+Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan melalui proses Loading..., program menampilkan TABEL MENU yang berisi daftar item dan harganya, yaitu Mie Gacoan (10000), Udang Keju (10000), Ayam Geprek Ganja (13000), Ayam Katsu (20000), dan Nasi Goreng (15000), sebelum meminta pengguna menekan Enter untuk kembali.
 
+<img width="788" height="573" alt="image" src="https://github.com/user-attachments/assets/dd46f055-bcc7-4624-8871-ce8023676c64" />
 
+Setelah memilih opsi '2' dari Menu Admin (Pilih 1-5 : 2) dan melalui proses Loading..., program menampilkan halaman TAMBAH MENU yang juga menyajikan TABEL MENU yang sudah ada, kemudian meminta pengguna untuk "Masukkan nama menu yang ingin ditambahkan:".
 
 
 
