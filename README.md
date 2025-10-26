@@ -65,8 +65,8 @@ Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hin
 **Tampilan Menu User**: User disajikan 6 opsi utama yaitu:
 1. Lihat Menu : Sistem membaca file DB Menu CSV dan menampilkan daftar makanan beserta harganya.
 2. Order : Pengguna memilih makanan yang ingin dipesan, jumlahnya, lalu sistem menghitung total harga. Setelah itu:
-   Jika saldo cukup => transaksi berhasil, data akan disimpan di **DB Pesanan CSV**, dan otomatis saldo akan berkurang dengan sendirinya.
-   Jika saldo tidak cukup => transaksi tidak berhasil, sistem akan menolak transaksi dan meminta anda untuk top up saldo terlebih dahulu.
+   2.1 Jika saldo cukup => transaksi berhasil, data akan disimpan di **DB Pesanan CSV**, dan otomatis saldo akan berkurang dengan sendirinya.
+   2.2 Jika saldo tidak cukup => transaksi tidak berhasil, sistem akan menolak transaksi dan meminta anda untuk top up saldo terlebih dahulu.
    Setelah pembayaran berhasil, sistem akan menampilkan **invoice (struk pemesanan)**.
 4. Top Up Saldo : Pengguna dapat menambahkan saldo minimal Rp50.000. Sistem akan memperbarui file **DB Akun CSV**, lalu menampilkan notifikasi bahwa saldo berhasil ditambahkan.
 5. Cek Saldo : Sistem membaca data dari **DB Akun CSV** dan akan menampilkan jumlah saldo saat ini.
