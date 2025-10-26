@@ -26,7 +26,7 @@ Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan.
 
 🔹 Penjelasan Alur:
 
-**Mulai**                                                                                                                                                                                                              Program dijalankan dan menampilkan menu utama dengan tiga pilihan:
+**Mulai**: Program dijalankan dan menampilkan menu utama dengan tiga pilihan yaitu:
   1. Buat Akun
   2. Login
   3. Keluar
@@ -43,8 +43,7 @@ Pengguna bisa login sebagai:
   1. **Admin** => Memasukkan username dan password khusus admin. Jika benar, akan diarahkan ke **Menu Admin**.
   2. **User** => Memasukkan username dan password yang sudah terdaftar, lalu akan diarahkan ke **Menu User**.
 
-**3. Keluar**: 
-Jika memilih "Keluar", maka program akan menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
+**3. Keluar**: Jika memilih "Keluar", maka program akan menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
 
 **🧩 Flowchart Menu Admin**
 
@@ -52,3 +51,9 @@ Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelo
 
 🔹 Penjelasan Alur:
 
+**Tampilan Menu Admin**: Admin disajikan 5 opsi utama yaitu:
+ 1. Lihat Menu : Sistem akan membaca file **DB Menu CSV** dan akan menampilkan tabel daftar menu yang tersedia.
+ 2. Tambah Menu : Admin diminta memasukkan nama dan harga makanan baru. Data disimpan ke file CSV, lalu sistem menampilkan notifikasi bahwa menu berhasil ditambahkan dan menampilkan tabel menu terbaru.
+ 3. Hapus Menu : Admin memasukkan nama menu yang ingin dihapus. Sistem membaca file CSV, menghapus data yang sesuai, lalu memperbarui tabel menu terbaru.
+ 4. Ubah Menu : Admin dapat mengubah harga dari menu tertentu. Setelah diperbarui, data disimpan kembali ke file CSV dan sistem menampilkan notifikasi bahwa menu berhasil diperbarui.
+ 5. Keluar : Admin dapat keluar dari sistem, dan program menampilkan notifikasi bahwa sesi admin telah selesai.
