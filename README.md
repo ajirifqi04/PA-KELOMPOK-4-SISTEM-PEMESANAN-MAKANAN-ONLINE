@@ -66,11 +66,11 @@ Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hin
 🔹 Penjelasan Alur:
 
 **Tampilan Menu User**: User memiliki 6 opsi utama yaitu:
-1. Lihat Menu : Sistem membaca file DB Menu CSV dan menampilkan daftar makanan beserta harganya.
-2. Order : Pengguna memilih makanan yang ingin dipesan beserta jumlahnya, kemudian sistem secara otomatis menghitung total harga. Jika saldo pengguna mencukupi, maka transaksi akan berhasil diproses, data pesanan akan disimpan ke dalam file pesanan.csv, dan saldo pengguna akan otomatis berkurang sesuai total pembelian. Namun, apabila saldo tidak mencukupi, sistem akan menolak transaksi dan menampilkan peringatan agar pengguna melakukan top up terlebih dahulu. Setelah pembayaran berhasil, sistem menampilkan invoice atau struk pemesanan sebagai bukti transaksi.
-4. Top Up Saldo : Pengguna dapat menambahkan saldo minimal Rp50.000. Sistem akan memperbarui file **DB Akun CSV**, lalu menampilkan notifikasi bahwa saldo berhasil ditambahkan.
-5. Cek Saldo : Sistem membaca data dari **DB Akun CSV** dan akan menampilkan jumlah saldo saat ini.
-6. Riwayat Order : Sistem membaca data dari **DB Pesanan CSV** dan menampilkan histori pembelian (nama menu, jumlah, total harga, waktu transaksi).
+1. Lihat Menu : Sistem membaca file Database Menu CSV dan menampilkan daftar makanan beserta harganya.
+2. Order : Pengguna memilih makanan yang ingin dipesan beserta jumlahnya, kemudian sistem secara otomatis menghitung total harga. Jika saldo pengguna mencukupi, maka transaksi akan berhasil diproses, data pesanan akan disimpan ke dalam file Database CSV, dan saldo pengguna akan otomatis berkurang sesuai total pembelian. Namun, apabila saldo tidak mencukupi, sistem akan menolak transaksi dan menampilkan peringatan agar pengguna melakukan top up terlebih dahulu. Setelah pembayaran berhasil, sistem menampilkan invoice atau struk pemesanan sebagai bukti transaksi.
+4. Top Up Saldo : Pengguna dapat menambahkan saldo minimal Rp50.000 dan maksimal Rp5.000.000. Sistem akan memperbarui file **Database Akun CSV**, lalu menampilkan notifikasi bahwa saldo berhasil ditambahkan.
+5. Cek Saldo : Sistem membaca data dari **Database Akun CSV** dan akan menampilkan jumlah saldo saat ini.
+6. Riwayat Order : Sistem membaca data dari **Database Pesanan CSV** dan menampilkan histori pembelian (nama menu, jumlah, total harga, waktu transaksi).
 7. Keluar : Menampilkan notifikasi bahwa program selesai dijalankan dan kembali ke menu utama.
 
 # === OUTPUT PROGRAM ===
