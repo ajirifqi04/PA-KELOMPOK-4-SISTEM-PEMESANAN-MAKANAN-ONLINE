@@ -143,6 +143,35 @@ Setelah pengguna memilih opsi '6' dari menu yang tersedia, program menampilkan p
 
 Tampilan ini menunjukkan bahwa pengguna memilih opsi '2' (Login) dari Menu Utama dan berhasil masuk sebagai administrator dengan memasukkan username: admin dan password yang tersembunyi, yang dikonfirmasi dengan pesan "Login sebagai ADMIN berhasil!" sebelum program memulai proses Loading untuk masuk ke menu admin.
 
+<img width="582" height="706" alt="image" src="https://github.com/user-attachments/assets/2367c4e0-61ee-4b12-8340-494ebb53a86d" />
+
+Setelah pengguna memasukkan nama menu ("Dimsum") dan harga ("4000") yang ingin ditambahkan, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu berhasil ditambahkan!", kemudian menunjukkan DAFTAR MENU TERBARU yang kini mencakup Dimsum seharga 4000 dan juga Mie Ayam seharga 20000 (yang kemungkinan ditambahkan sebelumnya), sebelum meminta pengguna menekan Enter untuk kembali.
+
+<img width="786" height="597" alt="image" src="https://github.com/user-attachments/assets/e4173104-eff3-4409-b0f9-51354b9c2e52" />
+
+
+Setelah memilih opsi '3' dari Menu Admin (Pilih 1-5 : 3) dan melalui proses Loading..., program menampilkan halaman HAPUS MENU yang menyajikan TABEL MENU lengkap (termasuk item terbaru Mie Ayam dan Dimsum), kemudian meminta administrator untuk "Masukkan nama menu yang ingin dihapus :".
+
+<img width="555" height="634" alt="image" src="https://github.com/user-attachments/assets/21ed5a19-9699-4af0-a192-85dc6605e036" />
+
+Setelah admin memasukkan nama menu "Dimsum" untuk dihapus, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu 'Dimsum' berhasil dihapus!", kemudian menunjukkan DAFTAR MENU TERBARU di mana Dimsum sudah tidak ada lagi, dan meminta pengguna menekan Enter untuk kembali.
+
+<img width="778" height="596" alt="image" src="https://github.com/user-attachments/assets/e488d669-fe77-46ea-8ee1-1d9d401271f8" />
+
+Setelah memilih opsi '4' dari Menu Admin (Pilih 1-5 : 4) dan melalui proses Loading..., program menampilkan halaman UPDATE MENU yang menyajikan TABEL MENU yang ada saat ini, kemudian meminta administrator untuk "Masukkan nama menu yang ingin diupdate :".
+
+<img width="664" height="156" alt="image" src="https://github.com/user-attachments/assets/1afbaae0-a716-4032-a3c1-95de9ae2ec35" />
+
+Setelah administrator memasukkan nama menu "Ayam Katsu" untuk di-update dan memasukkan harga baru: 15000, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu 'Ayam Katsu' berhasil diupdate dengan harga Rp 15000!", sebelum menunggu pengguna menekan Enter untuk kembali.
+
+<img width="388" height="448" alt="image" src="https://github.com/user-attachments/assets/287f5bcd-2929-470e-879d-b621b09125f4" />
+
+Tampilan ini menunjukkan TABEL MENU terbaru setelah proses update, di mana harga Ayam Katsu telah berhasil diperbarui menjadi 15000 (sebelumnya 20000), dan program menunggu pengguna menekan Enter untuk kembali.
+
+<img width="499" height="86" alt="image" src="https://github.com/user-attachments/assets/e1df9147-9722-45fc-8b57-48e4333d2984" />
+
+Setelah memilih opsi '5' dari Menu Admin (Pilih 1-5 : 5), program mengonfirmasi "Logout berhasil! Kembali ke menu utama..." dan akan mengalihkan tampilan ke Menu Utama (Login/Buat Akun/Keluar).
+
 <img width="402" height="471" alt="image" src="https://github.com/user-attachments/assets/a1e221c0-edaf-47fd-8ca8-120c064ad76e" />
 
 Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan melalui proses Loading..., program menampilkan TABEL MENU yang berisi daftar item dan harganya, yaitu Mie Gacoan (10000), Udang Keju (10000), Ayam Geprek Ganja (13000), Ayam Katsu (20000), dan Nasi Goreng (15000), sebelum meminta pengguna menekan Enter untuk kembali.
@@ -151,9 +180,20 @@ Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan me
 
 Setelah memilih opsi '2' dari Menu Admin (Pilih 1-5 : 2) dan melalui proses Loading..., program menampilkan halaman TAMBAH MENU yang juga menyajikan TABEL MENU yang sudah ada, kemudian meminta pengguna untuk "Masukkan nama menu yang ingin ditambahkan:".
 
+# MENU AwAL
 
+<img width="794" height="342" alt="image" src="https://github.com/user-attachments/assets/85af7f73-ace6-4fe8-8a90-336c671e8bc9" />
 
+Tampilan ini menunjukkan respons program pada MENU UTAMA ketika pengguna memasukkan input yang tidak valid (0) pada prompt "Pilih menu 1-3 :", di mana program menampilkan pesan kesalahan "Pilihan tidak tersedia!" dan meminta pengguna "Tekan Enter untuk kembali..." ke menu.
 
+<img width="382" height="89" alt="image" src="https://github.com/user-attachments/assets/5e6a91df-fa85-477b-bda7-fec78400c83e" />
+
+Setelah memilih opsi '3' (Keluar) dari Menu Utama, program mengakhiri operasinya dengan menampilkan pesan "Keluar Program! Terima kasih.".
+
+# MENU LOGIN
+<img width="767" height="268" alt="image" src="https://github.com/user-attachments/assets/4da2dfcc-2968-4bf3-920b-529191934021" />
+
+Tampilan ini menunjukkan kegagalan login di halaman LOGIN setelah pengguna memasukkan username: sultan dan password (tersembunyi), di mana program menampilkan pesan kesalahan "Username atau Password anda salah!" dan meminta pengguna untuk "Masukkan username anda:" lagi.
 
 
 
