@@ -39,8 +39,8 @@ Jika pengguna memilih “Buat Akun”, sistem meminta:
   Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat.
 **2. Login**
 Pengguna bisa login sebagai:
-  1.Admin => Memasukkan username dan password khusus admin. Jika benar, diarahkan ke Menu Admin.
-  2.User => Memasukkan username dan password user yang sudah terdaftar, lalu diarahkan ke Menu User.
+  1. **Admin** => Memasukkan username dan password khusus admin. Jika benar, akan diarahkan ke **Menu Admin**.
+  2. **User** => Memasukkan username dan password yang sudah terdaftar, lalu akan diarahkan ke **Menu User**.
 
 **3. Keluar**
 Jika memilih “Keluar”, program menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
