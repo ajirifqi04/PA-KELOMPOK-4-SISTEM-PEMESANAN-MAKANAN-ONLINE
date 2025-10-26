@@ -27,7 +27,6 @@ Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan.
 🔹 Penjelasan Alur:
 
 **Mulai**
-Program dijalankan dan menampilkan menu utama dengan tiga pilihan:
   1. Buat Akun
   2. Login
   3. Keluar
@@ -37,7 +36,7 @@ Jika pengguna memilih “Buat Akun”, sistem meminta:
   1. Username
   2. Password
   3. Nama Lengkap
-  Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat
+ Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat
 
 **2. Login**
 Pengguna bisa login sebagai:
