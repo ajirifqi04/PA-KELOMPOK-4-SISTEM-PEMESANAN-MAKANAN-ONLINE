@@ -43,6 +43,6 @@ Pengguna bisa login sebagai:
   1. **Admin** => Memasukkan username dan password khusus admin. Jika benar, akan diarahkan ke **Menu Admin**.
   2. **User** => Memasukkan username dan password yang sudah terdaftar, lalu akan diarahkan ke **Menu User**.
 
-**3. Keluar**
+**3. Keluar**:
 Jika memilih **"Keluar"**, maka program akan menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
 
