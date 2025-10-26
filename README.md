@@ -44,5 +44,5 @@ Pengguna bisa login sebagai:
   2. **User** => Memasukkan username dan password yang sudah terdaftar, lalu akan diarahkan ke **Menu User**.
 
 **3. Keluar**
-Jika memilih “Keluar”, program menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
+Jika memilih **"Keluar"**, maka program akan menampilkan notifikasi bahwa sistem selesai dijalankan, lalu berhenti.
 
