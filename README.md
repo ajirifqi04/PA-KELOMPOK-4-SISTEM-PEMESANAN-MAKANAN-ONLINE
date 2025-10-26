@@ -33,11 +33,10 @@ Program dijalankan dan menampilkan menu utama dengan tiga pilihan:
   
 **1. Buat Akun (User)**
 Jika pengguna memilih “Buat Akun”, sistem meminta:
-  1.Username
-  2.Password
-  3.Nama lengkap
-  Setelah data diisi, sistem menyimpan ke file DB Akun CSV, lalu menampilkan notifikasi bahwa akun berhasil dibuat.
-  
+  1. Username
+  2. Password
+  3. Nama Lengkap
+  Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat.
 **2. Login**
 Pengguna bisa login sebagai:
   1.Admin => Memasukkan username dan password khusus admin. Jika benar, diarahkan ke Menu Admin.
