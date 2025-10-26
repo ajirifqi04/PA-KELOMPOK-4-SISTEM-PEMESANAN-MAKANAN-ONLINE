@@ -7,7 +7,7 @@
 2. Ghaida Suci Nahiza (2509116077)
 3. Muhammad Nadhir Sultan Azzaky (2509116080)
 
-=== FLOWCHART ===
+=== 🧩 FLOWCHART ===
 
 # MENU AWAL USER
 ![WhatsApp Image 2025-10-26 at 15 17 48_73f7484e](https://github.com/user-attachments/assets/64bcbf1c-925d-4fc2-8af7-7575a34f6d90)
