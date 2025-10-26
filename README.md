@@ -116,7 +116,7 @@ Setelah pengguna memesan item kedua, Mie Gacoan sejumlah 1, dan menjawab 'n' (Ti
 
 <img width="782" height="209" alt="Screenshot 2025-10-26 181504" src="https://github.com/user-attachments/assets/67c9147f-1ad1-4c75-889c-59d86608952f" />
 
-Setelah pengguna memilih opsi '3' dari menu yang tersedia (setelah loading), program akan menampilkan halaman TOP UP SALDO dan meminta pengguna untuk "Masukkan jumlah top up: Rp" untuk mengisi ulang saldo akun mereka.
+Setelah pengguna memilih opsi '3' dari menu yang tersedia (setelah loading), program akan menampilkan halaman TOP UP SALDO dan meminta pengguna untuk "Masukkan jumlah top up: Rp" untuk mengisi ulang saldo akun mereka. Minimal top up saldo Rp 50.000 dan Maksimal Rp. 5.000.000
 
 <img width="395" height="237" alt="Screenshot 2025-10-26 184336" src="https://github.com/user-attachments/assets/f74beece-ec53-460a-bede-37a29fa2e5fd" />
 
