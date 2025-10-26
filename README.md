@@ -27,9 +27,9 @@ Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan.
 🔹 Penjelasan Alur:
 **Mulai**
 Program dijalankan dan menampilkan menu utama dengan tiga pilihan:
-  1.Buat Akun
-  2.Login
-  3.Keluar
+  1. Buat Akun
+  2. Login
+  3. Keluar
   
 **1. Buat Akun (User)**
 Jika pengguna memilih “Buat Akun”, sistem meminta:
