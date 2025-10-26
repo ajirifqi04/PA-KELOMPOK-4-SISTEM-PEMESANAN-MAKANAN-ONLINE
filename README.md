@@ -184,7 +184,7 @@ Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan me
 
 Setelah memilih opsi '2' dari Menu Admin (Pilih 1-5 : 2) dan melalui proses Loading..., program menampilkan halaman TAMBAH MENU yang juga menyajikan TABEL MENU yang sudah ada, kemudian meminta pengguna untuk "Masukkan nama menu yang ingin ditambahkan:".
 
-# MENU AwAL
+# MENU UTAMA
 
 <img width="794" height="342" alt="image" src="https://github.com/user-attachments/assets/85af7f73-ace6-4fe8-8a90-336c671e8bc9" />
 
