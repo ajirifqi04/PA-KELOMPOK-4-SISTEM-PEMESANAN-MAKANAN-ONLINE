@@ -154,7 +154,7 @@ Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan me
 
 <img width="788" height="573" alt="Screenshot 2025-10-26 191540" src="https://github.com/user-attachments/assets/cc553ead-978e-49f3-9eca-b28397ecc304" />
 
-Setelah memilih opsi '2' dari Menu Admin (Pilih 1-5 : 2) dan melalui proses Loading..., program menampilkan halaman TAMBAH MENU yang juga menyajikan TABEL MENU yang sudah ada, kemudian meminta pengguna untuk "Masukkan nama menu yang ingin ditambahkan:".
+Setelah memilih opsi '2' dari Menu Admin (Pilih 1-5 : 2) dan melalui proses Loading..., program menampilkan halaman TAMBAH MENU yang juga menampilkan TABEL MENU yang sudah ada, kemudian meminta pengguna untuk "Masukkan nama menu yang ingin ditambahkan:".
 
 <img width="582" height="706" alt="Screenshot 2025-10-26 201406" src="https://github.com/user-attachments/assets/cac0789c-51a7-4d7e-90aa-669e7abe1380" />
 
@@ -162,7 +162,7 @@ Setelah pengguna memasukkan nama menu ("Dimsum") dan harga ("4000") yang ingin d
 
 <img width="786" height="597" alt="Screenshot 2025-10-26 201842" src="https://github.com/user-attachments/assets/ce0c2990-ddd0-47e5-b0b6-3c385a2f279e" />
 
-Setelah memilih opsi '3' dari Menu Admin (Pilih 1-5 : 3) dan melalui proses Loading..., program menampilkan halaman HAPUS MENU yang menyajikan TABEL MENU lengkap (termasuk item terbaru Mie Ayam dan Dimsum), kemudian meminta administrator untuk "Masukkan nama menu yang ingin dihapus :".
+Setelah memilih opsi '3' dari Menu Admin (Pilih 1-5 : 3) dan melalui proses Loading..., program menampilkan halaman HAPUS MENU yang menampilkan TABEL MENU lengkap (termasuk item terbaru Mie Ayam dan Dimsum), kemudian meminta admin untuk "Masukkan nama menu yang ingin dihapus :".
 
 <img width="555" height="634" alt="Screenshot 2025-10-26 202024" src="https://github.com/user-attachments/assets/c62fa17d-e12e-47fc-8c40-20a77f7edac7" />
 
@@ -170,7 +170,7 @@ Setelah admin memasukkan nama menu "Dimsum" untuk dihapus, program memprosesnya 
 
 <img width="778" height="596" alt="Screenshot 2025-10-26 202319" src="https://github.com/user-attachments/assets/9b9b75b0-a648-4c2f-8c4d-143bbd13d21d" />
 
-Setelah memilih opsi '4' dari Menu Admin (Pilih 1-5 : 4) dan melalui proses Loading..., program menampilkan halaman UPDATE MENU yang menyajikan TABEL MENU yang ada saat ini, kemudian meminta administrator untuk "Masukkan nama menu yang ingin diupdate :".
+Setelah memilih opsi '4' dari Menu Admin (Pilih 1-5 : 4) dan melalui proses Loading..., program menampilkan halaman UPDATE MENU yang menyajikan TABEL MENU yang ada saat ini, kemudian meminta admin untuk "Masukkan nama menu yang ingin diupdate :".
 
 <img width="664" height="156" alt="Screenshot 2025-10-26 202514" src="https://github.com/user-attachments/assets/2e7e02f4-1152-4c40-9377-71fe5e04d790" />
 
