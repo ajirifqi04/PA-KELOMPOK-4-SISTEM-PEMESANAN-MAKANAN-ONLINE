@@ -18,7 +18,7 @@
 ![Uploading PA DDP4-Halaman-2.jpg…]()
 
 
-# MENU UTAMA USER
+# MENU USER
 
 ![Uploading PA DDP4-Halaman-3.jpg…]()
 
@@ -29,20 +29,20 @@
 
 Flowchart ini menjelaskan alur awal saat program pertama kali dijalankan. Flowchart ini menggambarkan tahap autentikasi awal sistem, di mana pengguna dapat membuat akun baru atau login sebagai admin maupun user untuk masuk ke tahap berikutnya.
 
-🔹 Penjelasan Alur:
+🔹 Penjelasan Alur :
 
-**Mulai**: Program dijalankan dan menampilkan menu utama dengan tiga pilihan yaitu:
+**Mulai** : Program dijalankan dan menampilkan menu utama dengan tiga pilihan yaitu:
    1. Buat Akun
    2. Login
    3. Keluar
   
-**1. Buat Akun (User)**: Jika pengguna memilih “Buat Akun”, sistem meminta:
+**1. Buat Akun (User)** : Jika pengguna memilih “Buat Akun”, sistem meminta:
    1. Username
    2. Password
    3. Nama Lengkap
- Setelah data diisi, sistem akan menyimpan file **DB Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat
+ Setelah data diisi, sistem akan menyimpan file **Database Akun CSV**, Lalu menampilkan notifikasi bahwa akun berhasil di buat
 
-**2. Login**: Pengguna bisa login sebagai:
+**2. Login** : Pengguna bisa login sebagai:
    1. **Admin** => Memasukkan username dan password khusus admin. Jika benar, akan diarahkan ke **Menu Admin**.
    2. **User** => Memasukkan username dan password yang sudah terdaftar, lalu akan diarahkan ke **Menu User**.
 
@@ -54,10 +54,10 @@ Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelo
 
 🔹 Penjelasan Alur:
 
-**Tampilan Menu Admin**: Admin disajikan 5 opsi utama yaitu:
- 1. Lihat Menu : Sistem akan membaca file **DB Menu CSV** dan akan menampilkan tabel daftar menu yang tersedia.
+**Tampilan Menu Admin**: Admin memiliki 5 opsi utama yaitu:
+ 1. Lihat Menu : Sistem akan membaca file **Database Menu CSV** dan akan menampilkan tabel daftar menu yang tersedia.
  2. Tambah Menu : Admin diminta memasukkan nama dan harga makanan baru. Data disimpan ke file CSV, lalu sistem menampilkan notifikasi bahwa menu berhasil ditambahkan dan menampilkan tabel menu terbaru.
- 3. Hapus Menu : Admin memasukkan nama menu yang ingin dihapus. Sistem membaca file CSV, menghapus data yang sesuai, lalu memperbarui tabel menu terbaru.
+ 3. Hapus Menu : Admin memasukkan nama menu yang ingin dihapus. Sistem membaca data di file CSV, menghapus data yang sesuai, lalu memperbarui tabel menu terbaru.
  4. Ubah Menu : Admin dapat mengubah harga dari menu tertentu. Setelah diperbarui, data disimpan kembali ke file CSV dan sistem menampilkan notifikasi bahwa menu berhasil diperbarui.
  5. Keluar : Admin dapat keluar dari sistem, dan program menampilkan notifikasi bahwa sesi admin telah selesai.
 
@@ -67,7 +67,7 @@ Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hin
 
 🔹 Penjelasan Alur:
 
-**Tampilan Menu User**: User disajikan 6 opsi utama yaitu:
+**Tampilan Menu User**: User memiliki 6 opsi utama yaitu:
 1. Lihat Menu : Sistem membaca file DB Menu CSV dan menampilkan daftar makanan beserta harganya.
 2. Order : Pengguna memilih makanan yang ingin dipesan beserta jumlahnya, kemudian sistem secara otomatis menghitung total harga. Jika saldo pengguna mencukupi, maka transaksi akan berhasil diproses, data pesanan akan disimpan ke dalam file pesanan.csv, dan saldo pengguna akan otomatis berkurang sesuai total pembelian. Namun, apabila saldo tidak mencukupi, sistem akan menolak transaksi dan menampilkan peringatan agar pengguna melakukan top up terlebih dahulu. Setelah pembayaran berhasil, sistem menampilkan invoice atau struk pemesanan sebagai bukti transaksi.
 4. Top Up Saldo : Pengguna dapat menambahkan saldo minimal Rp50.000. Sistem akan memperbarui file **DB Akun CSV**, lalu menampilkan notifikasi bahwa saldo berhasil ditambahkan.
