@@ -155,7 +155,6 @@ Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan me
 <img width="788" height="573" alt="Screenshot 2025-10-26 191540" src="https://github.com/user-attachments/assets/cc553ead-978e-49f3-9eca-b28397ecc304" />
 
 Setelah memilih opsi '2' dari Menu Admin (Pilih 1-5 : 2) dan melalui proses Loading..., program menampilkan halaman TAMBAH MENU yang juga menyajikan TABEL MENU yang sudah ada, kemudian meminta pengguna untuk "Masukkan nama menu yang ingin ditambahkan:".
-image
 
 <img width="582" height="706" alt="Screenshot 2025-10-26 201406" src="https://github.com/user-attachments/assets/cac0789c-51a7-4d7e-90aa-669e7abe1380" />
 
