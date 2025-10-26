@@ -76,47 +76,62 @@ Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hin
 
 **=== OUTPUT PROGRAM ===**
 
-image
+<img width="786" height="260" alt="Screenshot 2025-10-26 174517" src="https://github.com/user-attachments/assets/19f03314-daf1-401f-ade4-f04b5dcd85e9" />
+
 Tampilan ini adalah Menu Utama dari program yang berfungsi sebagai gerbang otentikasi awal, memungkinkan pengguna untuk Buat Akun, Login, atau Keluar dari aplikasi.
 
-image
+<img width="784" height="385" alt="Screenshot 2025-10-26 174954" src="https://github.com/user-attachments/assets/7fde2a19-dab5-4469-b340-4645232686a0" />
+
 Setelah memilih opsi '1' (Buat Akun) dari menu utama, program meminta input username, password, dan nama lengkap pengguna, lalu sistem akan memprosesnya dengan pesan Loading..., lalu menampilkan konfirmasi "Selamat! Akun kamu berhasil dibuat", dan bakal kembali ke menu utama.
 
 USER
-image
+
+<img width="787" height="293" alt="Screenshot 2025-10-26 175521" src="https://github.com/user-attachments/assets/16991b66-c0e6-4b5a-bd68-2b3d1fb92b7a" />
+
 Setelah memilih opsi '2' (Login), pengguna diarahkan untuk memasukkan username dan password yang telah di buat sebelumnya, yang kemudian diverifikasi dan menampilkan konfirmasi "Login Berhasil! Selamat datang, (Nama Lengkap)!" lalu sistem akan memprosesnya dengan pesan Loading...
 
-image
+<img width="767" height="330" alt="Screenshot 2025-10-26 180258" src="https://github.com/user-attachments/assets/531a4f24-6bef-480b-b737-83834eed7837" />
+
 dan akan memunculkan menu user seperti diatas ini setelah proses Loading...
 
-image
+<img width="398" height="475" alt="Screenshot 2025-10-26 180407" src="https://github.com/user-attachments/assets/d4fb4480-8812-4ac7-8068-bd91ce715386" />
+
 Tampilan ini menunjukkan ketika anda memilih opsi '1' dari menu sebelumnya (kemungkinan Menu Admin atau Menu Setelah Login), lalu program akan memprosesnya dengan pesan Loading... dan menampilkan TABEL MENU yang berisi daftar makanan dan harganya, yaitu Mie Gacoan (10000), Udang Keju (10000), Ayam Geprek Ganja (13000), Ayam Katsu (20000), dan Nasi Goreng (15000), sebelum menunggu pengguna menekan Enter untuk kembali.
 
-image
+<img width="781" height="602" alt="Screenshot 2025-10-26 180629" src="https://github.com/user-attachments/assets/65415b3f-d767-4eb2-b819-c0e5fcaedd03" />
+
 Setelah pengguna memilih opsi '2' dari menu sebelumnya, program menampilkan halaman ORDER yang tetap menyajikan TABEL MENU (termasuk Mie Gacoan, Udang Keju, Ayam Geprek Ganja, Ayam Katsu, dan Nasi Goreng beserta harganya) dan kemudian meminta pengguna untuk memasukkan nama menu yang ingin dipesan.
 
-image
+<img width="643" height="108" alt="Screenshot 2025-10-26 180811" src="https://github.com/user-attachments/assets/e22939fc-8b99-4369-9c1f-d4aafde81c24" />
+
 Tampilan ini melanjutkan proses pemesanan dengan menerima input nama menu yang ingin dipesan ("Ayam Geprek Ganja") dan jumlahnya ("1"), dan kemudian mengajukan pertanyaan konfirmasi "Apakah anda ingin memesan menu lain? (Y/N)" untuk "Y" artinya iya dan "N" artinya tidak.
 
-image
+<img width="781" height="571" alt="Screenshot 2025-10-26 180956" src="https://github.com/user-attachments/assets/76eabe02-01a4-48b4-b5dc-e07ae935213f" />
+
 Tampilan ketika pengguna menjawab 'Y' pada pertanyaan "Apakah anda ingin memesan menu lain?", lalu program akan otomatis mengulang proses ORDER, menampilkan kembali TABEL MENU, dan meminta pengguna untuk "Masukkan nama menu yang ingin dipesan lagi.
 
-image
+<img width="784" height="495" alt="Screenshot 2025-10-26 181213" src="https://github.com/user-attachments/assets/74fd1314-057d-4739-abf1-a3db0b5dfb1d" />
+
 Setelah pengguna memesan item kedua, Mie Gacoan sejumlah 1, dan menjawab 'n' (Tidak) pada pertanyaan ingin memesanan menu lain?, program menampilkan halaman KONFIRMASI PESANAN dengan Ringkasan Pesanan (Ayam Geprek Ganja x1 dan Mie Gacoan x1) dan Total Pembayaran sebesar Rp 23.000, namun proses pembayaran gagal karena Saldo Anda: Rp 0, sehingga program menampilkan pesan "Saldo tidak cukup! Silakan top up terlebih dahulu." dan meminta pengguna menekan Enter untuk kembali ke menu user.
 
-image
+<img width="782" height="209" alt="Screenshot 2025-10-26 181504" src="https://github.com/user-attachments/assets/67c9147f-1ad1-4c75-889c-59d86608952f" />
+
 Setelah pengguna memilih opsi '3' dari menu yang tersedia (setelah loading), program akan menampilkan halaman TOP UP SALDO dan meminta pengguna untuk "Masukkan jumlah top up: Rp" untuk mengisi ulang saldo akun mereka.
 
-image
+<img width="641" height="112" alt="Screenshot 2025-10-26 183940" src="https://github.com/user-attachments/assets/c0bd878f-7eff-411e-8236-6b2502e4420d" />
+
 Setelah pengguna memasukkan jumlah top up yang valid sebesar Rp 100.000, lalu program akan memprosesnya (Loading.....) dan menampilkan konfirmasi keberhasilan top up untuk akun Sultan, dengan rincian Saldo lama: Rp 0, Top up: Rp 100.000, dan Saldo baru: Rp 100.000, sebelum menunggu pengguna menekan Enter untuk kembali.
 
-image
+<img width="785" height="372" alt="Screenshot 2025-10-26 184055" src="https://github.com/user-attachments/assets/1d081310-9c78-4961-becc-a82d93d0419a" />
+
 Setelah top up saldo, program menampilkan kembali halaman KONFIRMASI PESANAN dengan Total Pembayaran: Rp 23.000 dan Saldo Anda: Rp 100.000, dan ketika pengguna menjawab 'y' (Ya) pada "Konfirmasi Pembayaran?", program memprosesnya (Loading.....) dan menampilkan pesan "Pembayaran berhasil!" dengan rincian Saldo terpotong: Rp 23.000 dan Sisa saldo: Rp 77.000.
 
-image
+<img width="783" height="375" alt="Screenshot 2025-10-26 184215" src="https://github.com/user-attachments/assets/b2cdd1c5-77d0-4dcd-9bc4-351ee2060b92" />
+
 Tampilan ini menunjukkan alur di mana pengguna berada di halaman KONFIRMASI PESANAN dengan Total Pembayaran: Rp 23.000 dan Saldo Anda: Rp 100.000, namun ketika pengguna menjawab 'n' (Tidak) pada pertanyaan "Konfirmasi Pembayaran?", program membatalkan transaksi dan menampilkan pesan "Pembayaran dibatalkan.".
 
-image
+<img width="395" height="237" alt="Screenshot 2025-10-26 184336" src="https://github.com/user-attachments/assets/1b1622b5-188c-429a-89ca-c42e24982399" />
+
 Setelah memilih opsi '4' dari menu yang tersedia (setelah loading), program menampilkan halaman CEK SALDO yang menunjukkan detail akun pengguna, yaitu Username: Sultan, Nama: Muhammad Nadhir Sultan Azzaky, dan Saldo: Rp 77,000, sebelum menunggu pengguna menekan Enter untuk kembali.
 
 image
