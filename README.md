@@ -140,7 +140,7 @@ Setelah memilih opsi '5' dari menu yang tersedia (setelah loading), program mena
 
 <img width="789" height="364" alt="Screenshot 2025-10-26 190608" src="https://github.com/user-attachments/assets/7dfbf78a-27ea-4ad2-9dc2-4a721c9cafca" />
 
-Setelah pengguna memilih opsi '6' dari menu yang tersedia, program menampilkan pesan "Logout berhasil! Kembali ke menu utama..." dan kemudian memuat ulang MENU UTAMA yang menampailkan opsi awal 1. Buat Akun, 2. Login, dan 3. Keluar, serta meminta pengguna untuk "Pilih menu 1-3 :".
+Setelah pengguna memilih opsi '6' dari menu yang tersedia, program menampilkan pesan "Logout berhasil! Kembali ke menu utama..." dan kemudian memuat ulang MENU UTAMA yang menampilkan opsi awal 1. Buat Akun, 2. Login, dan 3. Keluar, serta meminta pengguna untuk "Pilih menu 1-3 :".
 
 # ADMIN
 
