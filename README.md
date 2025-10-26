@@ -96,6 +96,7 @@ Tampilan ini menunjukkan ketika anda memilih opsi '1' dari menu sebelumnya (kemu
 
 Setelah pengguna memilih opsi '2' dari menu sebelumnya, program menampilkan halaman ORDER yang tetap menyajikan TABEL MENU (termasuk Mie Gacoan, Udang Keju, Ayam Geprek Ganja, Ayam Katsu, dan Nasi Goreng beserta harganya) dan kemudian meminta pengguna untuk memasukkan nama menu yang ingin dipesan.
 
+<img width="641" height="112" alt="image" src="https://github.com/user-attachments/assets/e91afea7-5db4-43ed-b68c-e0601a6f84d2" />
 
 Tampilan ini melanjutkan proses pemesanan dengan menerima input nama menu yang ingin dipesan ("Ayam Geprek Ganja") dan jumlahnya ("1"), dan kemudian mengajukan pertanyaan konfirmasi "Apakah anda ingin memesan menu lain? (Y/N)" untuk "Y" artinya iya dan "N" artinya tidak.
 
@@ -111,3 +112,92 @@ Setelah pengguna memesan item kedua, Mie Gacoan sejumlah 1, dan menjawab 'n' (Ti
 
 Setelah pengguna memilih opsi '3' dari menu yang tersedia (setelah loading), program akan menampilkan halaman TOP UP SALDO dan meminta pengguna untuk "Masukkan jumlah top up: Rp" untuk mengisi ulang saldo akun mereka.
 
+<img width="395" height="237" alt="image" src="https://github.com/user-attachments/assets/448d4ac3-c0d0-468f-94c0-aa04c0317827" />
+
+Setelah pengguna memasukkan jumlah top up yang valid sebesar Rp 100.000, lalu program akan memprosesnya (Loading.....) dan menampilkan konfirmasi keberhasilan top up untuk akun Sultan, dengan rincian Saldo lama: Rp 0, Top up: Rp 100.000, dan Saldo baru: Rp 100.000, sebelum menunggu pengguna menekan Enter untuk kembali.
+
+<img width="777" height="521" alt="image" src="https://github.com/user-attachments/assets/f332c343-3a08-43fd-80b6-580bc4c696d7" />
+
+Setelah top up saldo, program menampilkan kembali halaman KONFIRMASI PESANAN dengan Total Pembayaran: Rp 23.000 dan Saldo Anda: Rp 100.000, dan ketika pengguna menjawab 'y' (Ya) pada "Konfirmasi Pembayaran?", program memprosesnya (Loading.....) dan menampilkan pesan "Pembayaran berhasil!" dengan rincian Saldo terpotong: Rp 23.000 dan Sisa saldo: Rp 77.000.
+
+<img width="782" height="439" alt="image" src="https://github.com/user-attachments/assets/f99850e7-7985-496e-b01d-845ba34c958a" />
+
+Tampilan ini menunjukkan alur di mana pengguna berada di halaman KONFIRMASI PESANAN dengan Total Pembayaran: Rp 23.000 dan Saldo Anda: Rp 100.000, namun ketika pengguna menjawab 'n' (Tidak) pada pertanyaan "Konfirmasi Pembayaran?", program membatalkan transaksi dan menampilkan pesan "Pembayaran dibatalkan.".
+
+<img width="783" height="338" alt="image" src="https://github.com/user-attachments/assets/aea0569b-2bd2-43da-831b-ef6e51911904" />
+
+Setelah memilih opsi '4' dari menu yang tersedia (setelah loading), program menampilkan halaman CEK SALDO yang menunjukkan detail akun pengguna, yaitu Username: Sultan, Nama: Muhammad Nadhir Sultan Azzaky, dan Saldo: Rp 77,000, sebelum menunggu pengguna menekan Enter untuk kembali.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="780" height="499" alt="image" src="https://github.com/user-attachments/assets/2207b3d5-3c8a-442c-966e-20774289995a" />
+
+Tampilan ini menunjukkan halaman KONFIRMASI PESANAN dengan Total Pembayaran: Rp 23.000 dan Saldo Anda: Rp 77.000, bisa di lihat program menolak dua kali input konfirmasi pembayaran yang tidak valid (baik karakter 'a' maupun '\') karena hanya menerima Y atau N, dan kembali meminta pengguna untuk memasukkan Konfirmasi Pembayaran? (Y/N) yang benar.
+
+<img width="783" height="375" alt="image" src="https://github.com/user-attachments/assets/ca7f0cb8-ea43-4083-a905-c66970a665ff" />
+
+Setelah memilih menu '3' (TOP UP SALDO), program menolak dua kali input top up yang tidak valid: yang pertama karena nilainya (Rp -1) "harus lebih dari Rp50.000!" dan yang kedua karena inputnya (@) "harus berupa angka!", kemudian program kembali meminta pengguna untuk memasukkan jumlah top up yang valid.
