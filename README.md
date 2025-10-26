@@ -144,14 +144,13 @@ Setelah pengguna memilih opsi '6' dari menu yang tersedia, program menampilkan p
 
 # ADMIN
 
-<img width="402" height="471" alt="Screenshot 2025-10-26 191114" src="https://github.com/user-attachments/assets/c0d4cb8e-b0af-415e-abc9-016921c350d3" />
-
-
-Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan melalui proses Loading..., program menampilkan TABEL MENU yang berisi daftar item dan harganya, yaitu Mie Gacoan (10000), Udang Keju (10000), Ayam Geprek Ganja (13000), Ayam Katsu (20000), dan Nasi Goreng (15000), sebelum meminta pengguna menekan Enter untuk kembali.
-
 <img width="786" height="297" alt="Screenshot 2025-10-26 190829" src="https://github.com/user-attachments/assets/415a380d-4411-4c4d-a03c-8732e507d04c" />
 
 Tampilan ini menunjukkan bahwa pengguna memilih opsi '2' (Login) dari Menu Utama dan berhasil masuk sebagai administrator dengan memasukkan username: admin dan password yang tersembunyi, yang dikonfirmasi dengan pesan "Login sebagai ADMIN berhasil!" sebelum program memulai proses Loading untuk masuk ke menu admin.
+
+<img width="402" height="471" alt="Screenshot 2025-10-26 191114" src="https://github.com/user-attachments/assets/c0d4cb8e-b0af-415e-abc9-016921c350d3" />
+
+Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan melalui proses Loading..., program menampilkan TABEL MENU yang berisi daftar item dan harganya, yaitu Mie Gacoan (10000), Udang Keju (10000), Ayam Geprek Ganja (13000), Ayam Katsu (20000), dan Nasi Goreng (15000), sebelum meminta pengguna menekan Enter untuk kembali.
 
 <img width="788" height="573" alt="Screenshot 2025-10-26 191540" src="https://github.com/user-attachments/assets/cc553ead-978e-49f3-9eca-b28397ecc304" />
 
