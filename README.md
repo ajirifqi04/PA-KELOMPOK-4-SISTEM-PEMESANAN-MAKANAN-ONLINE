@@ -1,4 +1,4 @@
-# PA-KELOMPOK-4-SISTEM-PEMESANAN-MAKANAN-ONLINE
+<img width="499" height="86" alt="Screenshot 2025-10-26 203410" src="https://github.com/user-attachments/assets/bc88e3c4-b04d-4de1-abe2-e23dcde5ca0d" /><img width="555" height="634" alt="Screenshot 2025-10-26 202024" src="https://github.com/user-attachments/assets/dee6c2cf-d005-4062-8a8e-e119744d4f40" /><img width="664" height="156" alt="Screenshot 2025-10-26 202514" src="https://github.com/user-attachments/assets/ff37e547-a31b-4361-911f-d05ee9580ecb" /><img width="402" height="471" alt="Screenshot 2025-10-26 191114" src="https://github.com/user-attachments/assets/0c194617-3686-42bf-8298-f82fc8a29b54" /># PA-KELOMPOK-4-SISTEM-PEMESANAN-MAKANAN-ONLINE
 
 **SISTEM PEMESANAN MAKANAN ONLINE**
 
@@ -84,7 +84,7 @@ Tampilan ini adalah Menu Utama dari program yang berfungsi sebagai gerbang otent
 
 Setelah memilih opsi '1' (Buat Akun) dari menu utama, program meminta input username, password, dan nama lengkap pengguna, lalu sistem akan memprosesnya dengan pesan Loading..., lalu menampilkan konfirmasi "Selamat! Akun kamu berhasil dibuat", dan bakal kembali ke menu utama.
 
-USER
+#**USER**
 
 <img width="787" height="293" alt="Screenshot 2025-10-26 175521" src="https://github.com/user-attachments/assets/16991b66-c0e6-4b5a-bd68-2b3d1fb92b7a" />
 
@@ -118,62 +118,70 @@ Setelah pengguna memesan item kedua, Mie Gacoan sejumlah 1, dan menjawab 'n' (Ti
 
 Setelah pengguna memilih opsi '3' dari menu yang tersedia (setelah loading), program akan menampilkan halaman TOP UP SALDO dan meminta pengguna untuk "Masukkan jumlah top up: Rp" untuk mengisi ulang saldo akun mereka.
 
-<img width="641" height="112" alt="Screenshot 2025-10-26 183940" src="https://github.com/user-attachments/assets/c0bd878f-7eff-411e-8236-6b2502e4420d" />
+<img width="395" height="237" alt="Screenshot 2025-10-26 184336" src="https://github.com/user-attachments/assets/f74beece-ec53-460a-bede-37a29fa2e5fd" />
 
 Setelah pengguna memasukkan jumlah top up yang valid sebesar Rp 100.000, lalu program akan memprosesnya (Loading.....) dan menampilkan konfirmasi keberhasilan top up untuk akun Sultan, dengan rincian Saldo lama: Rp 0, Top up: Rp 100.000, dan Saldo baru: Rp 100.000, sebelum menunggu pengguna menekan Enter untuk kembali.
 
-<img width="785" height="372" alt="Screenshot 2025-10-26 184055" src="https://github.com/user-attachments/assets/1d081310-9c78-4961-becc-a82d93d0419a" />
+<img width="777" height="521" alt="Screenshot 2025-10-26 184755" src="https://github.com/user-attachments/assets/4641e768-689c-4cb2-82bc-52dfc26205b6" />
 
 Setelah top up saldo, program menampilkan kembali halaman KONFIRMASI PESANAN dengan Total Pembayaran: Rp 23.000 dan Saldo Anda: Rp 100.000, dan ketika pengguna menjawab 'y' (Ya) pada "Konfirmasi Pembayaran?", program memprosesnya (Loading.....) dan menampilkan pesan "Pembayaran berhasil!" dengan rincian Saldo terpotong: Rp 23.000 dan Sisa saldo: Rp 77.000.
 
-<img width="783" height="375" alt="Screenshot 2025-10-26 184215" src="https://github.com/user-attachments/assets/b2cdd1c5-77d0-4dcd-9bc4-351ee2060b92" />
+<img width="782" height="439" alt="Screenshot 2025-10-26 184938" src="https://github.com/user-attachments/assets/c150840a-aee3-4747-88fd-2ead449a2593" />
 
 Tampilan ini menunjukkan alur di mana pengguna berada di halaman KONFIRMASI PESANAN dengan Total Pembayaran: Rp 23.000 dan Saldo Anda: Rp 100.000, namun ketika pengguna menjawab 'n' (Tidak) pada pertanyaan "Konfirmasi Pembayaran?", program membatalkan transaksi dan menampilkan pesan "Pembayaran dibatalkan.".
 
-<img width="395" height="237" alt="Screenshot 2025-10-26 184336" src="https://github.com/user-attachments/assets/1b1622b5-188c-429a-89ca-c42e24982399" />
+<img width="783" height="338" alt="Screenshot 2025-10-26 185117" src="https://github.com/user-attachments/assets/7281d340-e87b-4939-bedc-663bce37f198" />
 
 Setelah memilih opsi '4' dari menu yang tersedia (setelah loading), program menampilkan halaman CEK SALDO yang menunjukkan detail akun pengguna, yaitu Username: Sultan, Nama: Muhammad Nadhir Sultan Azzaky, dan Saldo: Rp 77,000, sebelum menunggu pengguna menekan Enter untuk kembali.
 
-image
+<img width="919" height="473" alt="Screenshot 2025-10-26 190427" src="https://github.com/user-attachments/assets/64506f09-4c1c-4840-a709-bf560981a15c" />
+
 Setelah memilih opsi '5' dari menu yang tersedia (setelah loading), program menampilkan halaman RIWAYAT ORDER yang menunjukkan riwayat pesanan untuk pengguna Sultan, mencantumkan dua transaksi yang berhasil pada tanggal dan waktu yang sama (2025-10-26 18:47:30), yaitu Ayam Geprek Ganja (1) seharga Rp 13.000 dan Mie Gacoan (1) seharga Rp 10.000, sebelum meminta pengguna menekan Enter untuk kembali.
 
-image
+<img width="789" height="364" alt="Screenshot 2025-10-26 190608" src="https://github.com/user-attachments/assets/7dfbf78a-27ea-4ad2-9dc2-4a721c9cafca" />
+
 Setelah pengguna memilih opsi '6' dari menu yang tersedia, program menampilkan pesan "Logout berhasil! Kembali ke menu utama..." dan kemudian memuat ulang MENU UTAMA yang menampailkan opsi awal 1. Buat Akun, 2. Login, dan 3. Keluar, serta meminta pengguna untuk "Pilih menu 1-3 :".
 
-ADMIN
-image
-Tampilan ini menunjukkan bahwa pengguna memilih opsi '2' (Login) dari Menu Utama dan berhasil masuk sebagai administrator dengan memasukkan username: admin dan password yang tersembunyi, yang dikonfirmasi dengan pesan "Login sebagai ADMIN berhasil!" sebelum program memulai proses Loading untuk masuk ke menu admin.
+#**ADMIN**
 
-image
-Setelah pengguna memasukkan nama menu ("Dimsum") dan harga ("4000") yang ingin ditambahkan, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu berhasil ditambahkan!", kemudian menunjukkan DAFTAR MENU TERBARU yang kini mencakup Dimsum seharga 4000 dan juga Mie Ayam seharga 20000 (yang kemungkinan ditambahkan sebelumnya), sebelum meminta pengguna menekan Enter untuk kembali.
+<img width="402" height="471" alt="Screenshot 2025-10-26 191114" src="https://github.com/user-attachments/assets/c0d4cb8e-b0af-415e-abc9-016921c350d3" />
 
-image
-Setelah memilih opsi '3' dari Menu Admin (Pilih 1-5 : 3) dan melalui proses Loading..., program menampilkan halaman HAPUS MENU yang menyajikan TABEL MENU lengkap (termasuk item terbaru Mie Ayam dan Dimsum), kemudian meminta administrator untuk "Masukkan nama menu yang ingin dihapus :".
 
-image
-Setelah admin memasukkan nama menu "Dimsum" untuk dihapus, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu 'Dimsum' berhasil dihapus!", kemudian menunjukkan DAFTAR MENU TERBARU di mana Dimsum sudah tidak ada lagi, dan meminta pengguna menekan Enter untuk kembali.
-
-image
-Setelah memilih opsi '4' dari Menu Admin (Pilih 1-5 : 4) dan melalui proses Loading..., program menampilkan halaman UPDATE MENU yang menyajikan TABEL MENU yang ada saat ini, kemudian meminta administrator untuk "Masukkan nama menu yang ingin diupdate :".
-
-image
-Setelah administrator memasukkan nama menu "Ayam Katsu" untuk di-update dan memasukkan harga baru: 15000, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu 'Ayam Katsu' berhasil diupdate dengan harga Rp 15000!", sebelum menunggu pengguna menekan Enter untuk kembali.
-
-image
-Tampilan ini menunjukkan TABEL MENU terbaru setelah proses update, di mana harga Ayam Katsu telah berhasil diperbarui menjadi 15000 (sebelumnya 20000), dan program menunggu pengguna menekan Enter untuk kembali.
-
-image
-Setelah memilih opsi '5' dari Menu Admin (Pilih 1-5 : 5), program mengonfirmasi "Logout berhasil! Kembali ke menu utama..." dan akan mengalihkan tampilan ke Menu Utama (Login/Buat Akun/Keluar).
-
-image
 Setelah memilih opsi '1' dari Menu Admin (ditunjukkan oleh Pilih 1-5 : 1) dan melalui proses Loading..., program menampilkan TABEL MENU yang berisi daftar item dan harganya, yaitu Mie Gacoan (10000), Udang Keju (10000), Ayam Geprek Ganja (13000), Ayam Katsu (20000), dan Nasi Goreng (15000), sebelum meminta pengguna menekan Enter untuk kembali.
 
-image
+<img width="786" height="297" alt="Screenshot 2025-10-26 190829" src="https://github.com/user-attachments/assets/415a380d-4411-4c4d-a03c-8732e507d04c" />
+
+Tampilan ini menunjukkan bahwa pengguna memilih opsi '2' (Login) dari Menu Utama dan berhasil masuk sebagai administrator dengan memasukkan username: admin dan password yang tersembunyi, yang dikonfirmasi dengan pesan "Login sebagai ADMIN berhasil!" sebelum program memulai proses Loading untuk masuk ke menu admin.
+
+<img width="788" height="573" alt="Screenshot 2025-10-26 191540" src="https://github.com/user-attachments/assets/cc553ead-978e-49f3-9eca-b28397ecc304" />
+
 Setelah memilih opsi '2' dari Menu Admin (Pilih 1-5 : 2) dan melalui proses Loading..., program menampilkan halaman TAMBAH MENU yang juga menyajikan TABEL MENU yang sudah ada, kemudian meminta pengguna untuk "Masukkan nama menu yang ingin ditambahkan:".
-
-MENU AwAL
 image
-Tampilan ini menunjukkan respons program pada MENU UTAMA ketika pengguna memasukkan input yang tidak valid (0) pada prompt "Pilih menu 1-3 :", di mana program menampilkan pesan kesalahan "Pilihan tidak tersedia!" dan meminta pengguna "Tekan Enter untuk kembali..." ke menu.
 
-image
-Setelah memilih opsi '3' (Keluar) dari Menu Utama, program mengakhiri operasinya dengan menampilkan pesan "Keluar Program! Terima kasih.".
+<img width="582" height="706" alt="Screenshot 2025-10-26 201406" src="https://github.com/user-attachments/assets/cac0789c-51a7-4d7e-90aa-669e7abe1380" />
+
+Setelah pengguna memasukkan nama menu ("Dimsum") dan harga ("4000") yang ingin ditambahkan, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu berhasil ditambahkan!", kemudian menunjukkan DAFTAR MENU TERBARU yang kini mencakup Dimsum seharga 4000 dan juga Mie Ayam seharga 20000 (yang kemungkinan ditambahkan sebelumnya), sebelum meminta pengguna menekan Enter untuk kembali.
+
+<img width="786" height="597" alt="Screenshot 2025-10-26 201842" src="https://github.com/user-attachments/assets/ce0c2990-ddd0-47e5-b0b6-3c385a2f279e" />
+
+Setelah memilih opsi '3' dari Menu Admin (Pilih 1-5 : 3) dan melalui proses Loading..., program menampilkan halaman HAPUS MENU yang menyajikan TABEL MENU lengkap (termasuk item terbaru Mie Ayam dan Dimsum), kemudian meminta administrator untuk "Masukkan nama menu yang ingin dihapus :".
+
+<img width="555" height="634" alt="Screenshot 2025-10-26 202024" src="https://github.com/user-attachments/assets/c62fa17d-e12e-47fc-8c40-20a77f7edac7" />
+
+Setelah admin memasukkan nama menu "Dimsum" untuk dihapus, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu 'Dimsum' berhasil dihapus!", kemudian menunjukkan DAFTAR MENU TERBARU di mana Dimsum sudah tidak ada lagi, dan meminta pengguna menekan Enter untuk kembali.
+
+<img width="778" height="596" alt="Screenshot 2025-10-26 202319" src="https://github.com/user-attachments/assets/9b9b75b0-a648-4c2f-8c4d-143bbd13d21d" />
+
+Setelah memilih opsi '4' dari Menu Admin (Pilih 1-5 : 4) dan melalui proses Loading..., program menampilkan halaman UPDATE MENU yang menyajikan TABEL MENU yang ada saat ini, kemudian meminta administrator untuk "Masukkan nama menu yang ingin diupdate :".
+
+<img width="664" height="156" alt="Screenshot 2025-10-26 202514" src="https://github.com/user-attachments/assets/2e7e02f4-1152-4c40-9377-71fe5e04d790" />
+
+Setelah administrator memasukkan nama menu "Ayam Katsu" untuk di-update dan memasukkan harga baru: 15000, program memprosesnya (Loading.....) dan menampilkan konfirmasi "Menu 'Ayam Katsu' berhasil diupdate dengan harga Rp 15000!", sebelum menunggu pengguna menekan Enter untuk kembali.
+
+<img width="388" height="448" alt="Screenshot 2025-10-26 202558" src="https://github.com/user-attachments/assets/4ba2442b-9e4a-482b-89b0-7c42c6208c66" />
+
+Tampilan ini menunjukkan TABEL MENU terbaru setelah proses update, di mana harga Ayam Katsu telah berhasil diperbarui menjadi 15000 (sebelumnya 20000), dan program menunggu pengguna menekan Enter untuk kembali.
+
+<img width="499" height="86" alt="Screenshot 2025-10-26 203410" src="https://github.com/user-attachments/assets/9ce95ede-ff99-44b2-a415-4b6514e67ad4" />
+
+Setelah memilih opsi '5' dari Menu Admin (Pilih 1-5 : 5), program mengonfirmasi "Logout berhasil! Kembali ke menu utama..." dan akan mengalihkan tampilan ke Menu Utama (Login/Buat Akun/Keluar).
