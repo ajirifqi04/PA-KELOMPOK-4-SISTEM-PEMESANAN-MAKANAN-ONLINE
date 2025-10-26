@@ -56,7 +56,7 @@ Flowchart ini menggambarkan proses yang dapat dilakukan oleh admin untuk mengelo
  4. Ubah Menu : Admin dapat mengubah harga dari menu tertentu. Setelah diperbarui, data disimpan kembali ke file CSV dan sistem menampilkan notifikasi bahwa menu berhasil diperbarui.
  5. Keluar : Admin dapat keluar dari sistem, dan program menampilkan notifikasi bahwa sesi admin telah selesai.
 
-# **🧩 3. Flowchart Menu User**
+# **🧩 Flowchart Menu User**
 
 Flowchart ini menggambarkan alur transaksi pengguna, mulai dari melihat menu hingga melakukan pembayaran. Sistem juga menyediakan fitur saldo dan riwayat pemesanan untuk memudahkan pengguna mengelola aktivitas mereka.
 
